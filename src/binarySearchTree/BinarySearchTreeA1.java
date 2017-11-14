@@ -1,25 +1,28 @@
 package binarySearchTree;
 
-public class BinarySearchTreeA1<T> extends BinarySearchTreeAbstract<T>{
+public class BinarySearchTreeA1 extends RBBinaryTreeAbstract{
 	/*
 	 * Removes and returns an element in a BST, removing 
 	 */
-	public T getElt(T x) {
+	public Integer getElt(Integer x) {
 		//TODO
 		return null;
 	}
 	/*
-	 * Inserts an element into this according to standard BST convention with duplicate entries
+	 * Inserts an element into this according to standard BSInteger convention with duplicate entries
 	 * going to the right
 	 * @Param X
 	 * The element to be inserted
 	 */
-	public T insert(T x) {
-		// TODO Auto-generated method stub
+	public Integer insert(Integer x) {
+		if (this.root() == null) {
+			this.setRoot(x,true);
+		}else if
 		return null;
 	}
-	public void setNewRoot(T newRoot) {
+	public void setNewRoot(Integer newRoot) {
 		//TODO
 	}
+	public void fixUp() {}
 
 }
